@@ -1,4 +1,4 @@
-package co.kr.datau.shoppingcare.feature.launch.theme
+package co.kr.datau.shoppingcare.core.designsystem.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

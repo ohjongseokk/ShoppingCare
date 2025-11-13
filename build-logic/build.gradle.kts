@@ -6,7 +6,7 @@ plugins {
 dependencies {
     compileOnly(libs.android.gradle.plugin)
     compileOnly(libs.kotlin.gradle.plugin)
-    compileOnly(libs.ksp.gradle.plugin)
+    compileOnly(libs.ksp.gradle.plugin)         // 추후 추가될 hilt, room 플러그인을 추가하는 과정에서 ksp 플러그인 사용을 위함
 }
 
 gradlePlugin {
@@ -31,9 +31,9 @@ gradlePlugin {
             id = "shoppingcare.jvm.library"
             implementationClass = "JvmLibraryConventionPlugin"
         }
-        register("androidComposeFeatureCompose") {
-            id = "shoppingcare.android.compose.feature"
-            implementationClass = "AndroidComposeFeatureConventionPlugin"
+        register("androidFeatureCompose") {
+            id = "shoppingcare.android.feature"
+            implementationClass = "AndroidFeatureConventionPlugin"
         }
     }
 }

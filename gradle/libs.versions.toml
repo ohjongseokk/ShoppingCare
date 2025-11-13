@@ -49,5 +49,5 @@ shoppingcare-android-application = { id = "shoppingcare.android.application", ve
 shoppingcare-android-application-compose = { id = "shoppingcare.android.application.compose", version = "unspecified" }
 shoppingcare-android-library = { id = "shoppingcare.android.library", version = "unspecified" }
 shoppingcare-android-library-compose = { id = "shoppingcare.android.library.compose", version = "unspecified" }
-shoppingcare-android-compose-feature = { id = "shoppingcare.android.compose.feature", version = "unspecified" }
+shoppingcare-android-feature = { id = "shoppingcare.android.feature", version = "unspecified" }
 shoppingcare-jvm-library = { id = "shoppingcare.jvm.library", version = "unspecified" }

@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.shoppingcare.android.compose.feature)
+    alias(libs.plugins.shoppingcare.android.feature)
 }
 
 android {

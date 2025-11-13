@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingCare">
         <activity
-            android:name="co.kr.datau.shoppingcare.feature.launch.SplashActivity"
+            android:name="co.kr.datau.shoppingcare.feature.launch.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
