@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".app.ShoppingCareApplication"
+        android:name=".ShoppingCareApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,10 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingCare">
         <activity
-            android:name=".app.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.ShoppingCare">
+            android:name="co.kr.datau.shoppingcare.feature.launch.SplashActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

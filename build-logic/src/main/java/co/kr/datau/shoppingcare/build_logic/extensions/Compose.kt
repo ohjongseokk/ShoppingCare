@@ -15,7 +15,12 @@ internal fun Project.configureCompose(
         dependencies {
             "implementation"(platform(libs.findLibrary("androidx-compose-bom").get()))
             "implementation"(libs.findLibrary("androidx-ui-tooling-preview").get())
+            "implementation"(libs.findLibrary("androidx.material3").get())
+            "implementation"(libs.findLibrary("androidx.ui").get())
+            "implementation"(libs.findLibrary("androidx.ui.tooling.preview").get())
+
             "debugImplementation"(libs.findLibrary("androidx-ui-tooling-preview").get())
+            "debugImplementation"(libs.findLibrary("androidx.ui.tooling").get())
         }
     }
 }

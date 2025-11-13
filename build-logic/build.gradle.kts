@@ -23,9 +23,9 @@ gradlePlugin {
             id = "shoppingcare.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
-        register("androidComposeLibrary") {
-            id = "shoppingcare.android.compose.library"
-            implementationClass = "AndroidComposeLibraryConventionPlugin"
+        register("androidLibraryCompose") {
+            id = "shoppingcare.android.library.compose"
+            implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
         register("jvmLibrary") {
             id = "shoppingcare.jvm.library"

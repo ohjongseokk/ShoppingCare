@@ -1,7 +1,7 @@
 [versions]
 agp = "8.10.0-beta01"
 kotlin = "2.1.0"
-coreKtx = "1.11.0"
+coreKtx = "1.12.0"
 junit = "4.13.2"
 junitVersion = "1.3.0"
 espressoCore = "3.7.0"
@@ -48,6 +48,6 @@ android-library = { id = "com.android.library", version.ref = "agp" }
 shoppingcare-android-application = { id = "shoppingcare.android.application", version = "unspecified" }
 shoppingcare-android-application-compose = { id = "shoppingcare.android.application.compose", version = "unspecified" }
 shoppingcare-android-library = { id = "shoppingcare.android.library", version = "unspecified" }
-shoppingcare-android-compose-library = { id = "shoppingcare.android.compose.library", version = "unspecified" }
+shoppingcare-android-library-compose = { id = "shoppingcare.android.library.compose", version = "unspecified" }
 shoppingcare-android-compose-feature = { id = "shoppingcare.android.compose.feature", version = "unspecified" }
 shoppingcare-jvm-library = { id = "shoppingcare.jvm.library", version = "unspecified" }

@@ -1,4 +1,4 @@
-package co.kr.datau.shoppingcare.app.theme
+package co.kr.datau.shoppingcare.feature.launch.theme
 
 import androidx.compose.ui.graphics.Color
 
