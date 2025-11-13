@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-
 plugins {
     `kotlin-dsl`
     `kotlin-dsl-precompiled-script-plugins`
@@ -20,6 +18,22 @@ gradlePlugin {
         register("androidApplicationCompose") {
             id = "shoppingcare.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
+        }
+        register("androidLibrary") {
+            id = "shoppingcare.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
+        register("androidComposeLibrary") {
+            id = "shoppingcare.android.compose.library"
+            implementationClass = "AndroidComposeLibraryConventionPlugin"
+        }
+        register("jvmLibrary") {
+            id = "shoppingcare.jvm.library"
+            implementationClass = "JvmLibraryConventionPlugin"
+        }
+        register("androidComposeFeatureCompose") {
+            id = "shoppingcare.android.compose.feature"
+            implementationClass = "AndroidComposeFeatureConventionPlugin"
         }
     }
 }

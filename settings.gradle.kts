@@ -26,3 +26,7 @@ dependencyResolutionManagement {
 rootProject.name = "ShoppingCare"
 include(":app")
 include(":core:common")
+include(":core:designsystem")
+include(":domain")
+include(":data")
+include(":feature:launch")
