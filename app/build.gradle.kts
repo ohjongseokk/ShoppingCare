@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.shoppingcare.android.application)
+    alias(libs.plugins.shoppingcare.android.application.compose)
 }
 
 android {
